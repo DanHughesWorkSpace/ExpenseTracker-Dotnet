@@ -30,7 +30,12 @@ namespace ExpenseTrackerApi.Controllers
 
                 if (userInfoInDb == null)
                     return new JsonResult(NotFound());
-
+                else
+                {
+                    userInfoInDb.Id = user.Id;
+                    userInfoInDb.Name = user.Name;
+                    userInfoInDb.Email = user.Email;
+                }
                 userInfoInDb = user;
             }
 

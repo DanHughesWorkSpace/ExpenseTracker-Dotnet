@@ -30,7 +30,14 @@ namespace ExpenseTrackerApi.Controllers
 
                 if (categoryInDb == null)
                     return new JsonResult(NotFound());
-
+                else
+                {
+                    categoryInDb.Id = categoryInDb.Id;
+                    categoryInDb.Type = categoryInDb.Type;
+                    categoryInDb.Name = categoryInDb.Name;
+                    categoryInDb.Description = categoryInDb.Description;
+                    categoryInDb.Created_Date = categoryInDb.Description;
+                }
                 categoryInDb = category;
             }
 

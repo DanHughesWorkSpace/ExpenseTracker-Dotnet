@@ -11486,11 +11486,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\source\\repos\\ExpenseTrackerApp\\ExpenseTrackerApi\\ExpenseTrackerApi\\ExpenseTrackerApi.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Documents\\Repo\\ExpenseTrackerApp\\ExpenseTracker-Dotnet\\ExpenseTrackerApi\\ExpenseTrackerApi\\ExpenseTrackerApi.csproj",
       "projectName": "ExpenseTrackerApi",
-      "projectPath": "C:\\Users\\USER\\source\\repos\\ExpenseTrackerApp\\ExpenseTrackerApi\\ExpenseTrackerApi\\ExpenseTrackerApi.csproj",
+      "projectPath": "C:\\Users\\USER\\Documents\\Repo\\ExpenseTrackerApp\\ExpenseTracker-Dotnet\\ExpenseTrackerApi\\ExpenseTrackerApi\\ExpenseTrackerApi.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\source\\repos\\ExpenseTrackerApp\\ExpenseTrackerApi\\ExpenseTrackerApi\\obj\\",
+      "outputPath": "C:\\Users\\USER\\Documents\\Repo\\ExpenseTrackerApp\\ExpenseTracker-Dotnet\\ExpenseTrackerApi\\ExpenseTrackerApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",

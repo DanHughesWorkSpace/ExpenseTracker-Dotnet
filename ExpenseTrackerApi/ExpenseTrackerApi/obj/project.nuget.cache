@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Dw2UcOIihgos6aWc6S8Un50axNr1tk5CvkRfyFdlEYWEg2+5/EYwXXuRYFxqnj7hKDHq+voGo5NFMgM5jHG1MA==",
+  "dgSpecHash": "JKRpa0ETHJxSp/rJN1dPgig0USehXCsd/3Tasw0FWnFdHw2XsTcVgSEMd+FIvWA8io9B8sBq4+jYp2cO7mrUjg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\source\\repos\\ExpenseTrackerApp\\ExpenseTrackerApi\\ExpenseTrackerApi\\ExpenseTrackerApi.csproj",
+  "projectFilePath": "C:\\Users\\USER\\Documents\\Repo\\ExpenseTrackerApp\\ExpenseTracker-Dotnet\\ExpenseTrackerApi\\ExpenseTrackerApi\\ExpenseTrackerApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
