@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Mvc;
 using ExpenseTrackerApi.Data;
 using ExpenseTrackerApi.Models;
-using Humanizer;
 
 namespace ExpenseTrackerApi.Controllers
 {
@@ -51,26 +50,27 @@ namespace ExpenseTrackerApi.Controllers
 
         // Get all Expenses for a User
         [HttpGet]
-        public JsonResult GetUserExpenses(int userId)
+
+        public IActionResult GetUserExpenses(int userId)
         {
             var result = _context.Transactions.Where(x => x.User_Id == userId && x.Type == "expense");
 
-            if (result == null)
-                return new JsonResult(NotFound());
-
-            return new JsonResult(Ok(result));
+            if (!result.Any())
+            {
+                return NotFound();
+            }
+            return Ok(result);
         }
-
-        // Get all Income for a User
-        [HttpGet]
-        public JsonResult GetUserIncome(int userId) 
+            // Get all Income for a User
+            [HttpGet]
+        public IActionResult GetUserIncome(int userId) 
         { 
             var result = _context.Transactions.Where(x => x.User_Id == userId && x.Type == "income");
 
             if (result == null)
-                return new JsonResult(NotFound());
+                return NotFound();
 
-            return new JsonResult(Ok(result));
+            return Ok(result);
         }
 
         // Delete

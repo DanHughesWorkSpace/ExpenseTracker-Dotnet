@@ -49,7 +49,7 @@ namespace ExpenseTrackerApi.Controllers
 
         // Get
         [HttpGet]
-        public JsonResult Get(int id)
+        public IActionResult Get(int id)
         {
             var result = _context.Categories.Find(id);
 

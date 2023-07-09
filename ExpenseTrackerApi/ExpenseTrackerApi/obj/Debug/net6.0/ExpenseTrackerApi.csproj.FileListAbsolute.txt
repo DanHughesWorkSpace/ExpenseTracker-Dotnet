@@ -534,3 +534,6 @@ C:\Users\USER\Documents\Repo\ExpenseTrackerApp\ExpenseTracker-Dotnet\ExpenseTrac
 C:\Users\USER\Documents\Repo\ExpenseTrackerApp\ExpenseTracker-Dotnet\ExpenseTrackerApi\ExpenseTrackerApi\obj\Debug\net6.0\ExpenseTrackerApi.pdb
 C:\Users\USER\Documents\Repo\ExpenseTrackerApp\ExpenseTracker-Dotnet\ExpenseTrackerApi\ExpenseTrackerApi\obj\Debug\net6.0\ExpenseTrackerApi.genruntimeconfig.cache
 C:\Users\USER\Documents\Repo\ExpenseTrackerApp\ExpenseTracker-Dotnet\ExpenseTrackerApi\ExpenseTrackerApi\obj\Debug\net6.0\ref\ExpenseTrackerApi.dll
+C:\Users\USER\Documents\Repo\ExpenseTrackerApp\ExpenseTracker-Dotnet\ExpenseTrackerApi\ExpenseTrackerApi\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\USER\Documents\Repo\ExpenseTrackerApp\ExpenseTracker-Dotnet\ExpenseTrackerApi\ExpenseTrackerApi\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\USER\Documents\Repo\ExpenseTrackerApp\ExpenseTracker-Dotnet\ExpenseTrackerApi\ExpenseTrackerApi\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
