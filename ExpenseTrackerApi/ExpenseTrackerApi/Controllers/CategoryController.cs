@@ -51,12 +51,14 @@ namespace ExpenseTrackerApi.Controllers
         [HttpGet]
         public IActionResult Get(int id)
         {
-            var result = _context.Categories.Find(id);
+            var result = _context.Categories.Where(x => x.Id == id);
 
             if (result == null)
-                return new JsonResult(NotFound());
+                return NotFound();
 
-            return new JsonResult(Ok(result));
+            return Ok(result);  
+
+
         }
 
         // Delete
@@ -76,11 +78,14 @@ namespace ExpenseTrackerApi.Controllers
 
         // Get All
         [HttpGet]
-        public JsonResult GetAll(int userId)
+        public IActionResult GetAll(int userId)
         {
             var result = _context.Categories.Where(x => x.Created_By == userId).ToList();
 
-            return new JsonResult(Ok(result));
+            if (result == null)
+                return NotFound();
+
+            return Ok(result);
         }
     }
 }
